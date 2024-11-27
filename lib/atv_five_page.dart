@@ -10,7 +10,7 @@ class AtvFivePage extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Menu Lateral'),
+          title: Text(title),
           backgroundColor: Colors.green,
         ),
         drawer: const CustomDrawer(),
